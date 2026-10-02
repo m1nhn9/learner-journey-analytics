@@ -1,0 +1,12 @@
+# Raw data is ~450 MB and is downloaded separately (see data/README.md)
+data/raw/*.csv
+data/raw/*.zip
+oulad.db
+# Generated outputs: commit RESULTS.md and charts, not the bulk CSV extracts
+outputs/*.csv
+outputs/*.xlsx
+!outputs/RESULTS.md
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
